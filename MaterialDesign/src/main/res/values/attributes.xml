@@ -4,9 +4,9 @@
     <declare-styleable name="CustomAttributes">
 
         <!-- Color of ripple animation -->
-        <attr name="rippleColor" format="color|reference" />
+        <attr name="rippleOfColor" format="color|reference" />
         <!-- Speed of ripple animation -->
-        <attr name="rippleSpeed" format="float" />
+        <attr name="rippleOfSpeed" format="float" />
         <!-- indicate if the slider must show number indicator -->
         <attr name="showNumberIndicator" format="boolean" />
         <!-- in progress view indicate max value of progress -->
@@ -29,7 +29,7 @@
         <!-- in float button indicate if must start with animation -->
         <attr name="animate" format="boolean" />
         <!-- set the border of the ripple frame -->
-        <attr name="rippleBorderRadius" format="float" />
+        <attr name="rippleOfBorderRadius" format="float" />
         <!-- if true, delays calls to OnClickListeners until ripple effect ends -->
         <attr name="clickAfterRipple" format="boolean" />
     </declare-styleable>
